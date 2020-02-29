@@ -19,6 +19,11 @@ export default {
     // this.axios.get('/mock/user/login.json').then((res)=>{
     //   this.res = res
     // })
+
+    this.axios.get('/user/login').then((res)=>{
+      this.res = res
+    })
+
   }
 }
 </script>
